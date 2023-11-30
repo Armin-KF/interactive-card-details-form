@@ -22,7 +22,7 @@ body {
 
 .left {
   width: 32vw;
-  background-image: url("/images/bg-main-desktop.png");
+  background-image: url("images/bg-main-desktop.png");
 }
 
 .right {
@@ -242,10 +242,6 @@ input {
   margin-top: 2%;
   height: 60%;
   width: 80%;
-}
-
-.error-message {
-  color: red;
 }
 
 @media (max-width: 768px) {
