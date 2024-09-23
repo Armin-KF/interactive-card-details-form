@@ -5,6 +5,7 @@
     element.addEventListener("click", function (event) {
       event.stopPropagation();
 
+
       if (lastClickedElement) {
         lastClickedElement.style.borderColor = "";
       }
